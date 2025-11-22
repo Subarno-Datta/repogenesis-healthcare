@@ -63,10 +63,10 @@ Medical AI cannot afford to be wrong about cancer. We implemented a **Weighted R
 ```bash
 git clone [https://github.com/YourUsername/RepoGenesis_2025.git](https://github.com/YourUsername/RepoGenesis_2025.git)
 cd RepoGenesis_2025/Neural\ Nodes
-
+```
 ### 2. Setup the Brain (Backend)
 Bash
-
+```
 cd ai-engine
 
 # Create Virtual Environment
@@ -83,15 +83,16 @@ pip install -r requirements.txt
 # Run the Neural Network Server
 python main.py
 Server will start at: http://0.0.0.0:8000
-
+```
 ### 3. Setup the Face (Frontend)
 Open a new terminal tab:
 
 Bash
-
+```
 cd client
 npm install
 npm run dev
+```
 App will run at: http://localhost:5173
 
 ## Model Performance
