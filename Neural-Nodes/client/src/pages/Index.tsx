@@ -94,7 +94,11 @@ const Index = () => {
       console.log("📤 Sending to Backend...");
       
       // Ensure backend is running on Port 8000
-      const response = await axios.post("http://10.100.5.204:8000/scan", formData, {
+      const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+      
+      console.log(`Targeting Backend at: ${API_URL}`);
+
+      const response = await axios.post(`${API_URL}/scan`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
