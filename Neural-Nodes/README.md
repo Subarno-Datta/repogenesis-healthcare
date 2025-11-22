@@ -61,8 +61,8 @@ Medical AI cannot afford to be wrong about cancer. We implemented a **Weighted R
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YourUsername/RepoGenesis_2025.git](https://github.com/YourUsername/RepoGenesis_2025.git)
-cd RepoGenesis_2025/Neural\ Nodes
+git clone https://github.com/Subarno-Datta/repogenesis-healthcare.git
+cd Neural-Nodes
 ```
 ### 2. Setup the Brain (Backend)
 Bash
