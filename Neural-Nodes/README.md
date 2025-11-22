@@ -2,8 +2,8 @@
 
 > **"Real-time, privacy-first skin lesion screening in your pocket."**
 
-![DermaAI Banner](Neural%20Nodes/client/public/vite.svg)
-*(Replace this link with a screenshot of your Red Card "High Risk" result!)*
+<img width="775" height="280" alt="image" src="https://github.com/user-attachments/assets/3533faf9-67ad-441a-a73a-33f6c1a9c101" />
+
 
 ---
 
