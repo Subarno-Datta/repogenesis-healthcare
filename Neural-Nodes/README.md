@@ -8,8 +8,8 @@
 ---
 
 ## 🌐 Live Demo
-- **Frontend (App):** [Insert Your Vercel Link Here]
-- **Backend (API):** [Insert Your Render Link Here] /docs
+- **Frontend (App):** https://dermaai-fawn.vercel.app/
+- **Backend (API):** https://derma-ai-backend-oqml.onrender.com/docs
 
 ---
 
