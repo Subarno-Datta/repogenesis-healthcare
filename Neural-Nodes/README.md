@@ -1,4 +1,4 @@
-# 🩺 DermaAI: AI-Powered Dermatoscopic Analysis
+# DermaAI: AI-Powered Dermatoscopic Analysis
 
 > **"Real-time, privacy-first skin lesion screening in your pocket."**
 
@@ -7,25 +7,25 @@
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 - **Frontend (App):** https://dermaai-fawn.vercel.app/
 - **Backend (API):** https://derma-ai-backend-oqml.onrender.com/docs
 
 ---
 
-## 🚨 The Problem: "Wait Time is the Killer"
+## The Problem: "Wait Time is the Killer"
 In India, the ratio of dermatologists to patients is approximately **1:100,000**. For a patient in a rural area, noticing a suspicious spot often leads to weeks of anxiety, travel costs, and waiting lists just for a preliminary checkup.
 
 During this "wait time," treatable conditions like **Melanoma** (99% curable if caught early) can progress to fatal stages.
 
-## 💡 The Solution: DermaAI
+## The Solution: DermaAI
 **DermaAI** is an open-source, computer-vision intervention. It empowers general practitioners and patients to perform **clinical-grade screening** using just a smartphone camera.
 
 Unlike generic symptom checkers, DermaAI uses **Deep Learning (CNNs)** to analyze the visual structure of the lesion, identifying subtle patterns of malignancy that the naked eye might miss.
 
 ---
 
-## 🛡️ Key Differentiators (Why we win)
+## Key Differentiators
 
 ### 1. Privacy-Native Architecture (HIPAA Compliant Logic)
 Most health apps upload your photos to the cloud (AWS/Google), creating a massive privacy risk.
@@ -41,7 +41,7 @@ Medical AI cannot afford to be wrong about cancer. We implemented a **Weighted R
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology | Purpose |
 | :--- | :--- | :--- |
@@ -53,7 +53,7 @@ Medical AI cannot afford to be wrong about cancer. We implemented a **Weighted R
 
 ---
 
-## ⚡ Quick Start Guide (Run Locally)
+## Quick Start Guide (Run Locally)
 
 ### Prerequisites
 * Node.js & npm
@@ -93,7 +93,7 @@ npm install
 npm run dev
 App will run at: http://localhost:5173
 
-🧠 Model Performance
+## Model Performance
 Architecture: MobileNetV2 (feature extractor frozen, top layers fine-tuned).
 
 Dataset: HAM10000 (10,015 Dermatoscopic images).
@@ -114,7 +114,7 @@ Classes Detected:
 
 - Melanocytic Nevi (nv) - Common Mole
 
-⚠️ Medical Disclaimer
+## Medical Disclaimer
 DermaAI is a screening tool, NOT a diagnostic device. The results provided by this AI should never replace professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for any skin changes.
 
 Made with ❤️ and Code by Team Neural Nodes.
