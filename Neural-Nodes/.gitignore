@@ -1,0 +1,48 @@
+# --- OS & IDE Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# --- PYTHON (AI Engine) ---
+# Virtual Environment (Crucial to ignore)
+ai-engine/venv/
+
+# Bytecode / Cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.local
+ai-engine/.env
+
+# --- LARGE MODEL FILES ---
+# Prevent GitHub rejection (100MB limit)
+*.h5
+*.pt
+*.onnx
+*.tflite
+*.keras
+ai-engine/model/*
+# Keep the folder structure, just ignore the files
+!ai-engine/model/.gitkeep
+
+# --- JAVASCRIPT / REACT (Client) ---
+# Dependencies (Crucial to ignore - this is the huge list you sent)
+node_modules/
+client/node_modules/
+
+# Build Outputs
+client/dist/
+client/build/
+client/.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun.lockb
+yarn.lock
+pnpm-lock.yaml
