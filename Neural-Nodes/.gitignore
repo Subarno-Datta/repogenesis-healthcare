@@ -20,12 +20,10 @@ ai-engine/.env
 
 # --- LARGE MODEL FILES ---
 # Prevent GitHub rejection (100MB limit)
-*.h5
 *.pt
 *.onnx
 *.tflite
 *.keras
-ai-engine/model/*
 # Keep the folder structure, just ignore the files
 !ai-engine/model/.gitkeep
 
